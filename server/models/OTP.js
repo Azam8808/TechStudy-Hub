@@ -24,7 +24,7 @@ async function sendVerificationEmail(email, otp) {
 	// Define the email options
 
 	// Send the email
-	try {
+	 try {
 		const mailResponse = await mailSender(
 			email,
 			"Verification Email",
