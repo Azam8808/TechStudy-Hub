@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"study-hub-steel-five.vercel.app",
 		credentials:true,
 	})
 )
