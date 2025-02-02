@@ -15,7 +15,6 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 const PORT = process.env.PORT || 3000;
-console.log("this is my backend" +PORT);
 
 //database connect
 database.connect();
@@ -24,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		// origin:"http://localhost:2000",
+		// origin:"http://localhost:3000",
 		origin:"*",
 		credentials:true,
 	})
